@@ -1,0 +1,50 @@
+.grid-container {
+  position: absolute;
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto;
+  width: 50%;
+  height: 50%;
+  left: 25%;
+  top: 25%;
+}
+
+.box {
+  font-size: 100%;
+  padding: 1% 1%;
+  color: rgba(0, 0, 0, .8);
+  border: transparent;
+  background-color: #E6E6E6;
+  text-decoration: none;
+  border-radius: 2px;
+}
+
+.grid-Item {
+  border: 1px solid black;
+  background-color: lightgrey;
+}
+
+.header {
+  padding: 1%;
+  border: 2px solid red;
+  color: red;
+}
+
+.headerElement {
+  padding: 5%;
+  font-size: large;
+
+}
+
+.grid-container>div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.hidden {
+  display: none;
+}
+
+.successMessage {
+  color: green;
+}
